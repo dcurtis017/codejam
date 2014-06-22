@@ -55,7 +55,7 @@ public class ReverseWords {
 		}finally{
 			try{
 				if(br!=null){br.close();}
-				if(bw!=null){br.close();}
+				if(bw!=null){bw.close();}
 			}catch(IOException ex){
 				ex.printStackTrace();
 			}
